@@ -42,7 +42,8 @@ nav .brand-logo {
 
 
 nav .brand-logo span{
-    color: rgb(241, 4, 4);
+    /* color: rgb(241, 4, 4); */
+    color: #ffae00;
     font-family: 'Righteous', cursive;
     font-weight: bold;
     /* font-size: 35px; */

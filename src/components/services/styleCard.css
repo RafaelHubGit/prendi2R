@@ -28,7 +28,8 @@ h1 {
 .card {
   float: left;
   /* padding: 0 1.7rem; */
-  width: 450px;
+  /* width: 450px; */
+  width: 100%;
   height: 1px;
 }
 .card .menu-content {
@@ -214,6 +215,8 @@ h1 {
   background: url('../../assets/imagenes/videoShot.jpg') center/cover no-repeat !important;
 }
 
+
+
 .example-2 .wrapper:hover .menu-content span {
   -webkit-transform: translate(-50%, -10px);
           transform: translate(-50%, -10px);
@@ -250,8 +253,11 @@ h1 {
   -webkit-transform: translateY(calc(70px + 4em));
           transform: translateY(calc(70px + 4em));
 }
+.wrapper .data .content{
+  background: rgba(0, 0, 0, 0.4);
+}
 .example-2 .title a {
-  color: #fff;
+  color: rgb(255, 255, 255)
 }
 .example-2 .button {
   display: block;

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import video from '../../assets/videos/water.mp4';
+import video from '../../assets/videos/photo.mp4';
 import './style.css';
 
 class videoMain extends Component{
