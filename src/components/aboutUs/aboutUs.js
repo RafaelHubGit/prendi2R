@@ -11,7 +11,10 @@ class aboutUs extends Component{
             <div className="aboutUsContainer">
                 <div className="aboutText">
                     <div className="aboutNosotros">
-                        Sobre Nosotros
+                        <span className="lineTitle"></span>
+                        <div className="title">
+                            Sobre Nosotros
+                        </div>
                     </div>
                     <div className="aboutSombraText">
                         <p>Sobre <br/><span>Nosotros</span></p>
