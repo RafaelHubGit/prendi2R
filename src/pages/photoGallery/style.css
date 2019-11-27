@@ -1,0 +1,176 @@
+
+.photoGalleryContainer{
+    width: 100%;
+    height: 750px;
+
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+
+    background-image: url('../../assets/imagenes/aerea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contador{
+    position: absolute;
+    left: 20%;
+    height: 80px;
+    width: 80px;
+
+    border-radius: 50%;
+    border: 1px solid #ffae00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffae00;
+    font-size: 40px;
+    
+}
+
+
+.galleryContainer{
+    /* position: absolute; */
+    width: 20%;
+    height: 95%;
+
+    padding:15px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* overflow: scroll; */
+    overflow: auto;
+    direction: rtl;
+
+    /* background-color: rebeccapurple; */
+}
+
+.galleryPhoto{
+    width: 85%;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+    position: relative;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.galleryCheck{
+    position: absolute;
+    /* bottom: 1px; */
+    top: -8px;
+    right: 1px;
+
+}
+
+.galleryPhoto img{
+    position:initial;
+    width: 90%;
+    height: 78%;
+
+    background-color: #fff;
+}
+
+
+.photoContainer{
+    position: relative;
+    width: 80%;
+    height: 95%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+.photoPhoto{
+    position:absolute;
+    width: 90%;
+    height: 100%;
+
+
+    background-color:rgba(109, 109, 109, .3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* check */
+
+label {
+    display:block;
+    border:solid 1px rgb(212, 2, 2);
+    line-height:40px;
+    height:30px;
+    width: 30px;
+    border-radius:5px;
+    -webkit-font-smoothing: antialiased; 
+    margin-top:10px;
+    font-family:Arial,Helvetica,sans-serif;
+    color:rgb(212, 2, 2);
+    text-align:center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+label:before{
+    content: "\2212";
+}
+
+input:checked + label {
+    border: solid 1px #00d31c;
+    color: #00d31c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input:checked + label:before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "\2713 ";
+}
+
+/* new stuff */
+.check {
+    visibility: hidden;
+}
+
+input:checked + label .check {
+    visibility: visible;
+}
